@@ -1,0 +1,3 @@
+/home/haojun/Desktop/MATH-458/math-458/proj/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/haojun/Desktop/MATH-458/math-458/proj/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/haojun/Desktop/MATH-458/math-458/proj/cmake-build-debug/CMakeFiles/proj.dir
