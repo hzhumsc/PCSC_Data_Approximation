@@ -97,5 +97,95 @@ int Approximator::locate(double x_value) const {
 }
 
 std::vector<double> Approximator::piecewise_linear_poly(std::vector<double> x, int) const {
-    
+    int end = dx.size();
+    std::vector<double> y;
+    std::vector<double> s(end-1);
+
+    for(int i=0; i<end; i++){
+        s[i] = (dy[i+1] - dy[i])/(dx[i+1] - dx[i]);
+    }
+    double interp;
+    for(auto x_value: x){
+        int loc;
+        loc = locate(x_value);
+        if(loc < end-1){
+            if(loc == -1){
+                interp = dy[0] + s[0] * (x_value - dx[0]);
+            }
+            else{
+                interp = dy[loc] + s[loc] * (x_value - dx[loc]);
+            }
+        }
+        else{
+            interp = dy[end-1] + s[end-2] * (x_value - dx[end-1]);
+        }
+        y.push_back(interp);
+    }
+    return y;
+}
+
+std::vector<double> Approximator::least_squares(int degree) const {
+    using namespace Eigen;
+
+    int n_coef = degree + 1;
+    int n_pts = dx.size();
+
+    MatrixXf X(n_pts, n_coef);
+    MatrixXf Y(n_pts, 1);
+
+    // construct the Y vector
+    for (int i; i<n_pts; i++){
+        Y(i,0) = dy[i];
+    }
+
+    // construct the Vandermonde matrix
+    for (int i; i<n_pts; i++){
+        for (int j; j<n_coef; j++){
+            X(i,j) = pow(dx[i], j);
+        }
+    }
+
+    MatrixXf A(n_coef, n_coef);
+    MatrixXf q(n_coef, 1);
+
+    A = X.transpose()*X;
+    q = X.transpose()*Y;
+
+    VectorXf coefs;
+    coefs = A.colPivHouseholderQr().solve(q);
+
+    std::vector<double> Coef(coefs.data(), coefs.data()+coefs.size());
+    return Coef;
+}
+
+std::vector<double> Approximator::ls_val(std::vector<double> Coef, std::vector<double> x) const {
+    using namespace Eigen;
+
+    int n_pts = x.size();
+    int n_coefs = Coef.size();
+
+    MatrixXf X(n_pts, n_coefs);
+    MatrixXf C(n_coefs, 1);
+    MatrixXf Y(n_pts, 1);
+    // construct the matrix X
+    for (int i=0; i<n_pts; i++){
+        for (int j=0; j<n_coefs; j++){
+            X(i, j) = pow(x[i], j);
+        }
+    }
+    // construct C
+    for (int i=0; i<n_coefs; i++){
+        C(i, 0) = Coef[i];
+    }
+
+    Y = X * C;
+
+    VectorXf y(n_pts);
+
+    for(int i=0; i<n_pts; i++){
+        y(i) = Y(i,0);
+    }
+
+    std::vector<double> y_app(y.data(), y.data()+y.size());
+    return y_app;
 }
