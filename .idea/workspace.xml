@@ -22,7 +22,7 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1keYdeKLO4DqeXfCbg5Nmt9OWSa" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -37,11 +37,6 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../work/Chap8/Ex3/ComplexNumber.cpp" />
   </component>
   <component name="RunManager">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -63,7 +58,8 @@
       <updated>1606062612703</updated>
       <workItem from="1606062614096" duration="3433000" />
       <workItem from="1606743575687" duration="5942000" />
-      <workItem from="1606927390103" duration="22644000" />
+      <workItem from="1606927390103" duration="22782000" />
+      <workItem from="1607272306678" duration="8725000" />
     </task>
     <servers />
   </component>
@@ -79,21 +75,21 @@
       <screen x="56" y="27" width="1864" height="893" />
     </state>
     <state x="767" y="231" key="FileChooserDialogImpl/56.27.1864.893@56.27.1864.893" timestamp="1606070546873" />
-    <state width="1800" height="224" key="GridCell.Tab.0.bottom" timestamp="1607096791413">
+    <state width="1800" height="224" key="GridCell.Tab.0.bottom" timestamp="1607208252695">
       <screen x="72" y="27" width="1848" height="893" />
     </state>
-    <state width="1800" height="224" key="GridCell.Tab.0.bottom/72.27.1848.893@72.27.1848.893" timestamp="1607096791413" />
-    <state width="1800" height="224" key="GridCell.Tab.0.center" timestamp="1607096791410">
+    <state width="1800" height="224" key="GridCell.Tab.0.bottom/72.27.1848.893@72.27.1848.893" timestamp="1607208252695" />
+    <state width="1800" height="224" key="GridCell.Tab.0.center" timestamp="1607208252693">
       <screen x="72" y="27" width="1848" height="893" />
     </state>
-    <state width="1800" height="224" key="GridCell.Tab.0.center/72.27.1848.893@72.27.1848.893" timestamp="1607096791410" />
-    <state width="1800" height="224" key="GridCell.Tab.0.left" timestamp="1607096791407">
+    <state width="1800" height="224" key="GridCell.Tab.0.center/72.27.1848.893@72.27.1848.893" timestamp="1607208252693" />
+    <state width="1800" height="224" key="GridCell.Tab.0.left" timestamp="1607208252693">
       <screen x="72" y="27" width="1848" height="893" />
     </state>
-    <state width="1800" height="224" key="GridCell.Tab.0.left/72.27.1848.893@72.27.1848.893" timestamp="1607096791407" />
-    <state width="1800" height="224" key="GridCell.Tab.0.right" timestamp="1607096791413">
+    <state width="1800" height="224" key="GridCell.Tab.0.left/72.27.1848.893@72.27.1848.893" timestamp="1607208252693" />
+    <state width="1800" height="224" key="GridCell.Tab.0.right" timestamp="1607208252694">
       <screen x="72" y="27" width="1848" height="893" />
     </state>
-    <state width="1800" height="224" key="GridCell.Tab.0.right/72.27.1848.893@72.27.1848.893" timestamp="1607096791413" />
+    <state width="1800" height="224" key="GridCell.Tab.0.right/72.27.1848.893@72.27.1848.893" timestamp="1607208252694" />
   </component>
 </project>

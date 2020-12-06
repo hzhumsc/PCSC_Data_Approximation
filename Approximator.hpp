@@ -17,7 +17,8 @@ public:
     std::vector<double> polynomial(int degree) const;
     std::vector<double> polynomial_val(std::vector<double> Coef, std::vector<double> x) const;
     int locate(double x_value) const;
-    std::vector<double> piecewise_linear_poly(std::vector<double> x, int ) const;
+    std::vector<double> piecewise_linear_poly(std::vector<double> x) const;
+    std::vector<double> piecewise_cubic_poly(std::vector<double> x) const;
     std::vector<double> least_squares(int degree) const;
     std::vector<double> ls_val(std::vector<double> Coef, std::vector<double> x) const;
 
