@@ -1064,17 +1064,37 @@ lapacke_mangling.h
 
 ../lib/eigen-3.3.8/Eigen/src/plugins/MatrixCwiseUnaryOps.h
 
-/home/haojun/Desktop/MATH-458/math-458/proj/Approximator.cpp
-stdexcept
--
-cmath
--
-Approximator.hpp
-/home/haojun/Desktop/MATH-458/math-458/proj/Approximator.hpp
-
 /home/haojun/Desktop/MATH-458/math-458/proj/Approximator.hpp
 Eigen/Dense
 -
 vector
 -
+Matrix.hpp
+/home/haojun/Desktop/MATH-458/math-458/proj/Matrix.hpp
+
+/home/haojun/Desktop/MATH-458/math-458/proj/Data.hpp
+iostream
+-
+fstream
+-
+vector
+-
+
+/home/haojun/Desktop/MATH-458/math-458/proj/Matrix.hpp
+iostream
+-
+vector
+-
+
+/home/haojun/Desktop/MATH-458/math-458/proj/main.cpp
+iostream
+-
+Data.hpp
+/home/haojun/Desktop/MATH-458/math-458/proj/Data.hpp
+Approximator.hpp
+/home/haojun/Desktop/MATH-458/math-458/proj/Approximator.hpp
+Eigen/Dense
+-
+Matrix.hpp
+/home/haojun/Desktop/MATH-458/math-458/proj/Matrix.hpp
 

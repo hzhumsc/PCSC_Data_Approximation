@@ -1,1 +1,1 @@
-/usr/bin/c++  -g   CMakeFiles/proj.dir/main.cpp.o CMakeFiles/proj.dir/Data.cpp.o CMakeFiles/proj.dir/Approximator.cpp.o  -o proj 
+/usr/bin/c++  -g   CMakeFiles/proj.dir/main.cpp.o CMakeFiles/proj.dir/Data.cpp.o CMakeFiles/proj.dir/Approximator.cpp.o CMakeFiles/proj.dir/Matrix.cpp.o  -o proj 

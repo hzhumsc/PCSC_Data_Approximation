@@ -2,6 +2,7 @@
 // Created by haojun on 12/1/20.
 //
 #include <stdexcept>
+#include <iostream>
 #include <cmath>
 #include "Approximator.hpp"
 
@@ -12,69 +13,44 @@ Approximator::Approximator(std::vector<double> x, std::vector<double> y) {
     if(m!=n){
         throw std::invalid_argument("!size of the data are not compatible here");
     }
-    for(int i=0; i++; i<m){
+    for(int i=0; i<m; i++){
         dx.push_back(x[i]);
         dy.push_back(y[i]);
     }
 }
 
-std::vector<double> Approximator::polynomial(int degree) const{
-    using namespace Eigen;
+std::vector<double> Approximator::polynomial(int degree, double lambda) const{
 
-    int n_coef = degree + 1;
-    int n_pts = dx.size();
 
-    MatrixXf X(n_pts, n_coef);
-    MatrixXf Y(n_pts, 1);
-
-    // construct the Y vector
-    for (int i; i<n_pts; i++){
-        Y(i,0) = dy[i];
-    }
-
-    // construct the Vandermonde matrix
-    for (int i; i<n_pts; i++){
-        for (int j; j<n_coef; j++){
-            X(i,j) = pow(dx[i], j);
+    int N = dx.size();
+    std::vector<double> w;
+    Matrix A(N, degree + 1);
+    for (int i = 0; i<N; i ++){
+        for(int j = 0; j< degree + 1; j++){
+            A[i][j] = pow(dx[i], j);
         }
     }
 
-    VectorXf coefs;
-    coefs = X.colPivHouseholderQr().solve(Y);
+    w = least_squares(A, dy, lambda);
 
-    std::vector<double> Coef(coefs.data(), coefs.data()+coefs.size());
-    return Coef;
+    return w;
 }
 
 std::vector<double> Approximator::polynomial_val(std::vector<double> Coef, std::vector<double> x) const{
-    using namespace Eigen;
 
     int n_pts = x.size();
     int n_coefs = Coef.size();
 
-    MatrixXf X(n_pts, n_coefs);
-    MatrixXf C(n_coefs, 1);
-    MatrixXf Y(n_pts, 1);
+    Matrix X(n_pts, n_coefs);
+    std::vector<double> y_app;
     // construct the matrix X
     for (int i=0; i<n_pts; i++){
         for (int j=0; j<n_coefs; j++){
-            X(i, j) = pow(x[i], j);
+            X[i][j] = pow(x[i], j);
         }
     }
-    // construct C
-    for (int i=0; i<n_coefs; i++){
-        C(i, 0) = Coef[i];
-    }
+    y_app = X * Coef;
 
-    Y = X * C;
-
-    VectorXf y(n_pts);
-
-    for(int i=0; i<n_pts; i++){
-        y(i) = Y(i,0);
-    }
-
-    std::vector<double> y_app(y.data(), y.data()+y.size());
     return y_app;
 }
 
@@ -193,7 +169,7 @@ std::vector<double> Approximator::piecewise_cubic_poly(std::vector<double> x) co
     return y;
 }
 
-std::vector<double> Approximator::least_squares(int degree) const {
+std::vector<double> Approximator::least_square(int degree) const {
     using namespace Eigen;
 
     int n_coef = degree + 1;

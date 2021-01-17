@@ -8,30 +8,31 @@
 Data::Data() = default;
 
 void Data::read_file(std::string &file_name) {
-    std::ifstream infile;
-    infile.open(file_name);
+    std::ifstream infile(file_name);
 
     double x,y;
-    char c;
-    while(!infile.eof()){
-        infile.get(c);
-        if(c != '\n'){
-            infile>>x>>y;
-            dx.push_back(x);
-            dy.push_back(y);
-        }
 
+    while(!infile.eof()){
+        infile>>x>>y;
+        dx.push_back(x);
+        dy.push_back(y);
     }
     infile.close();
 
 }
 
-void Data::write_file(std::string &file_name, std::vector<double> dx, std::vector<double> dy) {
-    int n = dx.size();
+void Data::write_file(std::string &file_name, std::vector<double> x, std::vector<double> y) {
+    int n = x.size();
     std::ofstream outfile;
     outfile.open(file_name);
+    outfile.precision(8);
     for(int i=0; i<n; i++){
-        outfile<<dx[i]<<" "<<dy[i]<<"\n";
+        if (i<n-1) {
+            outfile << x[i] << " " << y[i] << "\n";
+        }
+        else{
+            outfile << x[i] << " " << y[i];
+        }
     }
     outfile.close();
 }
@@ -63,6 +64,12 @@ std::vector<double> Data::generate_y(int fct, std::vector<double> x) const {
     if(fct == 1){
         for(int i=0; i<n_pts; i++){
             y_value = sin(M_PI * x[i])/(M_PI * x[i]);
+            y.push_back(y_value);
+        }
+    }
+    else if(fct == 2){
+        for(int i=0; i<n_pts; i++){
+            y_value = 1/(1+25*pow(x[i], 2));
             y.push_back(y_value);
         }
     }
