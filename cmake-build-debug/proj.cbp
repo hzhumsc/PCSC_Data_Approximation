@@ -119,6 +119,30 @@
 		<Unit filename="/home/haojun/Desktop/MATH-458/math-458/proj/test/GeneralTest.hpp">
 			<Option target="proj"/>
 		</Unit>
+		<Unit filename="/home/haojun/Desktop/MATH-458/math-458/proj/test/Test_1.cpp">
+			<Option target="proj"/>
+		</Unit>
+		<Unit filename="/home/haojun/Desktop/MATH-458/math-458/proj/test/Test_1.hpp">
+			<Option target="proj"/>
+		</Unit>
+		<Unit filename="/home/haojun/Desktop/MATH-458/math-458/proj/test/Test_2.cpp">
+			<Option target="proj"/>
+		</Unit>
+		<Unit filename="/home/haojun/Desktop/MATH-458/math-458/proj/test/Test_2.hpp">
+			<Option target="proj"/>
+		</Unit>
+		<Unit filename="/home/haojun/Desktop/MATH-458/math-458/proj/test/Test_3.cpp">
+			<Option target="proj"/>
+		</Unit>
+		<Unit filename="/home/haojun/Desktop/MATH-458/math-458/proj/test/Test_3.hpp">
+			<Option target="proj"/>
+		</Unit>
+		<Unit filename="/home/haojun/Desktop/MATH-458/math-458/proj/test/Test_4.cpp">
+			<Option target="proj"/>
+		</Unit>
+		<Unit filename="/home/haojun/Desktop/MATH-458/math-458/proj/test/Test_4.hpp">
+			<Option target="proj"/>
+		</Unit>
 		<Unit filename="/home/haojun/Desktop/MATH-458/math-458/proj/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

@@ -305,6 +305,114 @@ test/GeneralTest.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/proj.dir/build.make CMakeFiles/proj.dir/test/GeneralTest.cpp.s
 .PHONY : test/GeneralTest.cpp.s
 
+test/Test_1.o: test/Test_1.cpp.o
+
+.PHONY : test/Test_1.o
+
+# target to build an object file
+test/Test_1.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/proj.dir/build.make CMakeFiles/proj.dir/test/Test_1.cpp.o
+.PHONY : test/Test_1.cpp.o
+
+test/Test_1.i: test/Test_1.cpp.i
+
+.PHONY : test/Test_1.i
+
+# target to preprocess a source file
+test/Test_1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/proj.dir/build.make CMakeFiles/proj.dir/test/Test_1.cpp.i
+.PHONY : test/Test_1.cpp.i
+
+test/Test_1.s: test/Test_1.cpp.s
+
+.PHONY : test/Test_1.s
+
+# target to generate assembly for a file
+test/Test_1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/proj.dir/build.make CMakeFiles/proj.dir/test/Test_1.cpp.s
+.PHONY : test/Test_1.cpp.s
+
+test/Test_2.o: test/Test_2.cpp.o
+
+.PHONY : test/Test_2.o
+
+# target to build an object file
+test/Test_2.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/proj.dir/build.make CMakeFiles/proj.dir/test/Test_2.cpp.o
+.PHONY : test/Test_2.cpp.o
+
+test/Test_2.i: test/Test_2.cpp.i
+
+.PHONY : test/Test_2.i
+
+# target to preprocess a source file
+test/Test_2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/proj.dir/build.make CMakeFiles/proj.dir/test/Test_2.cpp.i
+.PHONY : test/Test_2.cpp.i
+
+test/Test_2.s: test/Test_2.cpp.s
+
+.PHONY : test/Test_2.s
+
+# target to generate assembly for a file
+test/Test_2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/proj.dir/build.make CMakeFiles/proj.dir/test/Test_2.cpp.s
+.PHONY : test/Test_2.cpp.s
+
+test/Test_3.o: test/Test_3.cpp.o
+
+.PHONY : test/Test_3.o
+
+# target to build an object file
+test/Test_3.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/proj.dir/build.make CMakeFiles/proj.dir/test/Test_3.cpp.o
+.PHONY : test/Test_3.cpp.o
+
+test/Test_3.i: test/Test_3.cpp.i
+
+.PHONY : test/Test_3.i
+
+# target to preprocess a source file
+test/Test_3.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/proj.dir/build.make CMakeFiles/proj.dir/test/Test_3.cpp.i
+.PHONY : test/Test_3.cpp.i
+
+test/Test_3.s: test/Test_3.cpp.s
+
+.PHONY : test/Test_3.s
+
+# target to generate assembly for a file
+test/Test_3.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/proj.dir/build.make CMakeFiles/proj.dir/test/Test_3.cpp.s
+.PHONY : test/Test_3.cpp.s
+
+test/Test_4.o: test/Test_4.cpp.o
+
+.PHONY : test/Test_4.o
+
+# target to build an object file
+test/Test_4.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/proj.dir/build.make CMakeFiles/proj.dir/test/Test_4.cpp.o
+.PHONY : test/Test_4.cpp.o
+
+test/Test_4.i: test/Test_4.cpp.i
+
+.PHONY : test/Test_4.i
+
+# target to preprocess a source file
+test/Test_4.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/proj.dir/build.make CMakeFiles/proj.dir/test/Test_4.cpp.i
+.PHONY : test/Test_4.cpp.i
+
+test/Test_4.s: test/Test_4.cpp.s
+
+.PHONY : test/Test_4.s
+
+# target to generate assembly for a file
+test/Test_4.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/proj.dir/build.make CMakeFiles/proj.dir/test/Test_4.cpp.s
+.PHONY : test/Test_4.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -332,6 +440,18 @@ help:
 	@echo "... test/GeneralTest.o"
 	@echo "... test/GeneralTest.i"
 	@echo "... test/GeneralTest.s"
+	@echo "... test/Test_1.o"
+	@echo "... test/Test_1.i"
+	@echo "... test/Test_1.s"
+	@echo "... test/Test_2.o"
+	@echo "... test/Test_2.i"
+	@echo "... test/Test_2.s"
+	@echo "... test/Test_3.o"
+	@echo "... test/Test_3.i"
+	@echo "... test/Test_3.s"
+	@echo "... test/Test_4.o"
+	@echo "... test/Test_4.i"
+	@echo "... test/Test_4.s"
 .PHONY : help
 
 

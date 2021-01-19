@@ -155,6 +155,58 @@ CMakeFiles/proj.dir/test/GeneralTest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/proj.dir/test/GeneralTest.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/haojun/Desktop/MATH-458/math-458/proj/test/GeneralTest.cpp -o CMakeFiles/proj.dir/test/GeneralTest.cpp.s
 
+CMakeFiles/proj.dir/test/Test_1.cpp.o: CMakeFiles/proj.dir/flags.make
+CMakeFiles/proj.dir/test/Test_1.cpp.o: ../test/Test_1.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/haojun/Desktop/MATH-458/math-458/proj/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/proj.dir/test/Test_1.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/proj.dir/test/Test_1.cpp.o -c /home/haojun/Desktop/MATH-458/math-458/proj/test/Test_1.cpp
+
+CMakeFiles/proj.dir/test/Test_1.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/proj.dir/test/Test_1.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/haojun/Desktop/MATH-458/math-458/proj/test/Test_1.cpp > CMakeFiles/proj.dir/test/Test_1.cpp.i
+
+CMakeFiles/proj.dir/test/Test_1.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/proj.dir/test/Test_1.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/haojun/Desktop/MATH-458/math-458/proj/test/Test_1.cpp -o CMakeFiles/proj.dir/test/Test_1.cpp.s
+
+CMakeFiles/proj.dir/test/Test_2.cpp.o: CMakeFiles/proj.dir/flags.make
+CMakeFiles/proj.dir/test/Test_2.cpp.o: ../test/Test_2.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/haojun/Desktop/MATH-458/math-458/proj/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/proj.dir/test/Test_2.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/proj.dir/test/Test_2.cpp.o -c /home/haojun/Desktop/MATH-458/math-458/proj/test/Test_2.cpp
+
+CMakeFiles/proj.dir/test/Test_2.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/proj.dir/test/Test_2.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/haojun/Desktop/MATH-458/math-458/proj/test/Test_2.cpp > CMakeFiles/proj.dir/test/Test_2.cpp.i
+
+CMakeFiles/proj.dir/test/Test_2.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/proj.dir/test/Test_2.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/haojun/Desktop/MATH-458/math-458/proj/test/Test_2.cpp -o CMakeFiles/proj.dir/test/Test_2.cpp.s
+
+CMakeFiles/proj.dir/test/Test_3.cpp.o: CMakeFiles/proj.dir/flags.make
+CMakeFiles/proj.dir/test/Test_3.cpp.o: ../test/Test_3.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/haojun/Desktop/MATH-458/math-458/proj/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/proj.dir/test/Test_3.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/proj.dir/test/Test_3.cpp.o -c /home/haojun/Desktop/MATH-458/math-458/proj/test/Test_3.cpp
+
+CMakeFiles/proj.dir/test/Test_3.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/proj.dir/test/Test_3.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/haojun/Desktop/MATH-458/math-458/proj/test/Test_3.cpp > CMakeFiles/proj.dir/test/Test_3.cpp.i
+
+CMakeFiles/proj.dir/test/Test_3.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/proj.dir/test/Test_3.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/haojun/Desktop/MATH-458/math-458/proj/test/Test_3.cpp -o CMakeFiles/proj.dir/test/Test_3.cpp.s
+
+CMakeFiles/proj.dir/test/Test_4.cpp.o: CMakeFiles/proj.dir/flags.make
+CMakeFiles/proj.dir/test/Test_4.cpp.o: ../test/Test_4.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/haojun/Desktop/MATH-458/math-458/proj/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/proj.dir/test/Test_4.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/proj.dir/test/Test_4.cpp.o -c /home/haojun/Desktop/MATH-458/math-458/proj/test/Test_4.cpp
+
+CMakeFiles/proj.dir/test/Test_4.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/proj.dir/test/Test_4.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/haojun/Desktop/MATH-458/math-458/proj/test/Test_4.cpp > CMakeFiles/proj.dir/test/Test_4.cpp.i
+
+CMakeFiles/proj.dir/test/Test_4.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/proj.dir/test/Test_4.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/haojun/Desktop/MATH-458/math-458/proj/test/Test_4.cpp -o CMakeFiles/proj.dir/test/Test_4.cpp.s
+
 # Object files for target proj
 proj_OBJECTS = \
 "CMakeFiles/proj.dir/main.cpp.o" \
@@ -162,7 +214,11 @@ proj_OBJECTS = \
 "CMakeFiles/proj.dir/Approximator.cpp.o" \
 "CMakeFiles/proj.dir/Matrix.cpp.o" \
 "CMakeFiles/proj.dir/UserInterface.cpp.o" \
-"CMakeFiles/proj.dir/test/GeneralTest.cpp.o"
+"CMakeFiles/proj.dir/test/GeneralTest.cpp.o" \
+"CMakeFiles/proj.dir/test/Test_1.cpp.o" \
+"CMakeFiles/proj.dir/test/Test_2.cpp.o" \
+"CMakeFiles/proj.dir/test/Test_3.cpp.o" \
+"CMakeFiles/proj.dir/test/Test_4.cpp.o"
 
 # External object files for target proj
 proj_EXTERNAL_OBJECTS =
@@ -173,9 +229,13 @@ proj: CMakeFiles/proj.dir/Approximator.cpp.o
 proj: CMakeFiles/proj.dir/Matrix.cpp.o
 proj: CMakeFiles/proj.dir/UserInterface.cpp.o
 proj: CMakeFiles/proj.dir/test/GeneralTest.cpp.o
+proj: CMakeFiles/proj.dir/test/Test_1.cpp.o
+proj: CMakeFiles/proj.dir/test/Test_2.cpp.o
+proj: CMakeFiles/proj.dir/test/Test_3.cpp.o
+proj: CMakeFiles/proj.dir/test/Test_4.cpp.o
 proj: CMakeFiles/proj.dir/build.make
 proj: CMakeFiles/proj.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/haojun/Desktop/MATH-458/math-458/proj/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable proj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/haojun/Desktop/MATH-458/math-458/proj/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable proj"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/proj.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

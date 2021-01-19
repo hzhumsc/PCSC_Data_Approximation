@@ -10,6 +10,10 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/haojun/Desktop/MATH-458/math-458/proj/UserInterface.cpp" "/home/haojun/Desktop/MATH-458/math-458/proj/cmake-build-debug/CMakeFiles/proj.dir/UserInterface.cpp.o"
   "/home/haojun/Desktop/MATH-458/math-458/proj/main.cpp" "/home/haojun/Desktop/MATH-458/math-458/proj/cmake-build-debug/CMakeFiles/proj.dir/main.cpp.o"
   "/home/haojun/Desktop/MATH-458/math-458/proj/test/GeneralTest.cpp" "/home/haojun/Desktop/MATH-458/math-458/proj/cmake-build-debug/CMakeFiles/proj.dir/test/GeneralTest.cpp.o"
+  "/home/haojun/Desktop/MATH-458/math-458/proj/test/Test_1.cpp" "/home/haojun/Desktop/MATH-458/math-458/proj/cmake-build-debug/CMakeFiles/proj.dir/test/Test_1.cpp.o"
+  "/home/haojun/Desktop/MATH-458/math-458/proj/test/Test_2.cpp" "/home/haojun/Desktop/MATH-458/math-458/proj/cmake-build-debug/CMakeFiles/proj.dir/test/Test_2.cpp.o"
+  "/home/haojun/Desktop/MATH-458/math-458/proj/test/Test_3.cpp" "/home/haojun/Desktop/MATH-458/math-458/proj/cmake-build-debug/CMakeFiles/proj.dir/test/Test_3.cpp.o"
+  "/home/haojun/Desktop/MATH-458/math-458/proj/test/Test_4.cpp" "/home/haojun/Desktop/MATH-458/math-458/proj/cmake-build-debug/CMakeFiles/proj.dir/test/Test_4.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

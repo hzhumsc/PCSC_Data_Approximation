@@ -1,18 +1,15 @@
 //
-// Created by haojun on 1/19/21.
+// Created by haojun on 1/20/21.
 //
 
-#include "GeneralTest.hpp"
+#include "Test_2.hpp"
 
-Test::Test()  = default;
+Test_2::Test_2()  = default;
 
-void Test::RunTest() {
+void Test_2::RunTest() {
     std::string file_name, output_path;
+    file_name = "../data/test2.dat";
     std::vector<double> dx, dy;
-    std::cout<<"Please enter the location of the data file:"<<std::endl;
-    std::cin>>file_name;
-    std::cout<<"Please enter the location of the output approximation file"<<std::endl;
-    std::cin>>output_path;
 
     Data d;
     d.read_file(file_name);
@@ -29,6 +26,7 @@ void Test::RunTest() {
     std::cout<<"3-"<<"Piecewise cubic polynomial interpolation"<<std::endl;
     std::cin>>method;
     if (method == 1){
+        output_path = "../data/test2_polynomial.data";
         std::vector<double> coef;
         int degree;
         std::cout<<"Please choose the degree"<<std::endl;
@@ -51,6 +49,7 @@ void Test::RunTest() {
         std::cout<<"Finished."<<std::endl;
     }
     else if (method == 2){
+        output_path = "../data/test2_linear_interp.data";
         std::vector<double> x, y_app;
         int n_nodes;
         n_nodes = 10*N;
@@ -60,6 +59,7 @@ void Test::RunTest() {
         std::cout<<"Finished."<<std::endl;
     }
     else if (method == 3){
+        output_path = "../data/test2_cubic_interp.data";
         std::vector<double> x, y_app;
         int n_nodes;
         n_nodes = 10*N;

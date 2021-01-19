@@ -13,8 +13,6 @@ class Test{
 public:
     Test();
 
-    ~Test();
-
     virtual void RunTest();
 
 };
