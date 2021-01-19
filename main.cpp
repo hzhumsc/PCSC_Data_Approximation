@@ -22,7 +22,7 @@ int main() {
 
     std::cout<<coefs[2]<<" "<<std::endl;
     x = d.generate_x(201, -10.0, 10.0);
-    y_app = app.piecewise_linear_poly(x);
+    y_app = app.piecewise_cubic_poly(x);
     y_standard = d.generate_y(2,x);
 
     d.write_file(path, x, y_app);
