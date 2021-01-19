@@ -1,5 +1,5 @@
 //
-// Created by haojun on 1/17/21.
+// Created by haojun on 1/10/21.
 //
 
 #include "Matrix.hpp"
@@ -299,7 +299,7 @@ std::ostream& operator<<(std::ostream& output, const Matrix& B) {
     return output;
 }
 
-std::vector<double> least_squares(const Matrix& A, const std::vector<double> &b, double s) {
+std::vector<double> ls(const Matrix& A, const std::vector<double> &b, double s) {
     if (b.size() != A.size0) {
         throw std::invalid_argument( "Inconsistent matrix size!" );
     }

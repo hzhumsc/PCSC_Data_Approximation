@@ -1,5 +1,5 @@
 //
-// Created by haojun on 1/17/21.
+// Created by haojun on 1/10/21.
 //
 
 #ifndef PROJ_MATRIX_H
@@ -192,7 +192,7 @@ public:
      * @param s a non-negative scalar to be added on the diagonal of A.T * A
      * @return the solution of the normal equation, i.e. x = (A.T * A + sI)^(-1) A.T * b
      */
-    friend std::vector<double> least_squares(const Matrix& A, const std::vector<double> &b, double s);
+    friend std::vector<double> ls(const Matrix& A, const std::vector<double> &b, double s);
 };
 
 

@@ -19,7 +19,7 @@ Approximator::Approximator(std::vector<double> x, std::vector<double> y) {
     }
 }
 
-std::vector<double> Approximator::polynomial(int degree, double lambda) const{
+std::vector<double> Approximator::polynomial(int degree) const{
 
 
     int N = dx.size();
@@ -31,7 +31,7 @@ std::vector<double> Approximator::polynomial(int degree, double lambda) const{
         }
     }
 
-    w = least_squares(A, dy, lambda);
+    w = gauss_solve(A, dy);
 
     return w;
 }
@@ -161,72 +161,43 @@ std::vector<double> Approximator::piecewise_cubic_poly(std::vector<double> x) co
     return y;
 }
 
-std::vector<double> Approximator::least_square(int degree) const {
-    using namespace Eigen;
+std::vector<double> Approximator::least_squares(int degree, double s) const {
 
-    int n_coef = degree + 1;
-    int n_pts = dx.size();
+//    int n_coef = degree + 1;
+//    int n_pts = dx.size();
+//
+//    Matrix X(n_pts, n_coef);
+//
+//
+//    // construct the Vandermonde matrix
+//    for (int i; i<n_pts; i++){
+//        for (int j; j<n_coef; j++){
+//            X[i][j] = pow(dx[i], j);
+//        }
+//    }
 
-    MatrixXf X(n_pts, n_coef);
-    MatrixXf Y(n_pts, 1);
+//    Matrix A(n_coef, n_coef);
+//    std::vector<double> q(n_coef);
+//
+//    A = X.transpose()*X;
+//    q = X.transpose()*y;
 
-    // construct the Y vector
-    for (int i; i<n_pts; i++){
-        Y(i,0) = dy[i];
-    }
+//    std::vector<double> coef;
+//    coef = least_square(X, dy, s);
 
-    // construct the Vandermonde matrix
-    for (int i; i<n_pts; i++){
-        for (int j; j<n_coef; j++){
-            X(i,j) = pow(dx[i], j);
+
+    int N = dx.size();
+    std::vector<double> w;
+    Matrix A(N, degree + 1);
+    for (int i = 0; i<N; i ++){
+        for(int j = 0; j< degree + 1; j++){
+            A[i][j] = pow(dx[i], j);
         }
     }
 
-    MatrixXf A(n_coef, n_coef);
-    MatrixXf q(n_coef, 1);
+    w = ls(A, dy, s);
 
-    A = X.transpose()*X;
-    q = X.transpose()*Y;
+    return w;
 
-    MatrixXf coef(n_coef, 1);
-    coef = A.colPivHouseholderQr().solve(q);
-
-    VectorXf coefs(n_coef);
-    for (int i=0; i<n_coef; i++){
-        coefs(i) = coef(i,0);
-    }
-    std::vector<double> Coef(coefs.data(), coefs.data()+coefs.size());
-    return Coef;
-}
-
-std::vector<double> Approximator::ls_val(std::vector<double> Coef, std::vector<double> x) const {
-    using namespace Eigen;
-
-    int n_pts = x.size();
-    int n_coefs = Coef.size();
-
-    MatrixXf X(n_pts, n_coefs);
-    MatrixXf C(n_coefs, 1);
-    MatrixXf Y(n_pts, 1);
-    // construct the matrix X
-    for (int i=0; i<n_pts; i++){
-        for (int j=0; j<n_coefs; j++){
-            X(i, j) = pow(x[i], j);
-        }
-    }
-    // construct C
-    for (int i=0; i<n_coefs; i++){
-        C(i, 0) = Coef[i];
-    }
-
-    Y = X * C;
-
-    VectorXf y(n_pts);
-
-    for(int i=0; i<n_pts; i++){
-        y(i) = Y(i,0);
-    }
-
-    std::vector<double> y_app(y.data(), y.data()+y.size());
-    return y_app;
+//    return coef;
 }

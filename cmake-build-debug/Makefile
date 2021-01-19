@@ -224,6 +224,33 @@ Matrix.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/proj.dir/build.make CMakeFiles/proj.dir/Matrix.cpp.s
 .PHONY : Matrix.cpp.s
 
+UserInterface.o: UserInterface.cpp.o
+
+.PHONY : UserInterface.o
+
+# target to build an object file
+UserInterface.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/proj.dir/build.make CMakeFiles/proj.dir/UserInterface.cpp.o
+.PHONY : UserInterface.cpp.o
+
+UserInterface.i: UserInterface.cpp.i
+
+.PHONY : UserInterface.i
+
+# target to preprocess a source file
+UserInterface.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/proj.dir/build.make CMakeFiles/proj.dir/UserInterface.cpp.i
+.PHONY : UserInterface.cpp.i
+
+UserInterface.s: UserInterface.cpp.s
+
+.PHONY : UserInterface.s
+
+# target to generate assembly for a file
+UserInterface.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/proj.dir/build.make CMakeFiles/proj.dir/UserInterface.cpp.s
+.PHONY : UserInterface.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -251,6 +278,33 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/proj.dir/build.make CMakeFiles/proj.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+test/GeneralTest.o: test/GeneralTest.cpp.o
+
+.PHONY : test/GeneralTest.o
+
+# target to build an object file
+test/GeneralTest.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/proj.dir/build.make CMakeFiles/proj.dir/test/GeneralTest.cpp.o
+.PHONY : test/GeneralTest.cpp.o
+
+test/GeneralTest.i: test/GeneralTest.cpp.i
+
+.PHONY : test/GeneralTest.i
+
+# target to preprocess a source file
+test/GeneralTest.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/proj.dir/build.make CMakeFiles/proj.dir/test/GeneralTest.cpp.i
+.PHONY : test/GeneralTest.cpp.i
+
+test/GeneralTest.s: test/GeneralTest.cpp.s
+
+.PHONY : test/GeneralTest.s
+
+# target to generate assembly for a file
+test/GeneralTest.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/proj.dir/build.make CMakeFiles/proj.dir/test/GeneralTest.cpp.s
+.PHONY : test/GeneralTest.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -269,9 +323,15 @@ help:
 	@echo "... Matrix.o"
 	@echo "... Matrix.i"
 	@echo "... Matrix.s"
+	@echo "... UserInterface.o"
+	@echo "... UserInterface.i"
+	@echo "... UserInterface.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... test/GeneralTest.o"
+	@echo "... test/GeneralTest.i"
+	@echo "... test/GeneralTest.s"
 .PHONY : help
 
 

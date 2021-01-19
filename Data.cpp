@@ -63,13 +63,25 @@ std::vector<double> Data::generate_y(int fct, std::vector<double> x) const {
     int n_pts = x.size();
     if(fct == 1){
         for(int i=0; i<n_pts; i++){
-            y_value = sin(M_PI * x[i])/(M_PI * x[i]);
+            y_value = exp(x[i]);
             y.push_back(y_value);
         }
     }
     else if(fct == 2){
         for(int i=0; i<n_pts; i++){
+            y_value = pow(x[i], 3) + pow(x[i], 2) + x[i] + 1;
+            y.push_back(y_value);
+        }
+    }
+    else if(fct == 3){
+        for(int i=0; i<n_pts; i++){
             y_value = 1/(1+25*pow(x[i], 2));
+            y.push_back(y_value);
+        }
+    }
+    else if(fct == 4){
+        for(int i=0; i<n_pts; i++){
+            y_value = cos(M_PI * pow(fabs(x[i]), 0.5));
             y.push_back(y_value);
         }
     }

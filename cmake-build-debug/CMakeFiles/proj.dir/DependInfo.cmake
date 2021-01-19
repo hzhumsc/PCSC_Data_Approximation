@@ -7,7 +7,9 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/haojun/Desktop/MATH-458/math-458/proj/Approximator.cpp" "/home/haojun/Desktop/MATH-458/math-458/proj/cmake-build-debug/CMakeFiles/proj.dir/Approximator.cpp.o"
   "/home/haojun/Desktop/MATH-458/math-458/proj/Data.cpp" "/home/haojun/Desktop/MATH-458/math-458/proj/cmake-build-debug/CMakeFiles/proj.dir/Data.cpp.o"
   "/home/haojun/Desktop/MATH-458/math-458/proj/Matrix.cpp" "/home/haojun/Desktop/MATH-458/math-458/proj/cmake-build-debug/CMakeFiles/proj.dir/Matrix.cpp.o"
+  "/home/haojun/Desktop/MATH-458/math-458/proj/UserInterface.cpp" "/home/haojun/Desktop/MATH-458/math-458/proj/cmake-build-debug/CMakeFiles/proj.dir/UserInterface.cpp.o"
   "/home/haojun/Desktop/MATH-458/math-458/proj/main.cpp" "/home/haojun/Desktop/MATH-458/math-458/proj/cmake-build-debug/CMakeFiles/proj.dir/main.cpp.o"
+  "/home/haojun/Desktop/MATH-458/math-458/proj/test/GeneralTest.cpp" "/home/haojun/Desktop/MATH-458/math-458/proj/cmake-build-debug/CMakeFiles/proj.dir/test/GeneralTest.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

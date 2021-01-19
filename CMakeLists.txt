@@ -6,4 +6,4 @@ set(CMAKE_CXX_STANDARD 14)
 set(EIGEN_DIR "lib/eigen-3.3.8")
 include_directories(${EIGEN_DIR})
 
-add_executable(proj main.cpp Data.cpp Data.hpp Approximator.cpp Approximator.hpp Matrix.cpp Matrix.hpp)
+add_executable(proj main.cpp Data.cpp Data.hpp Approximator.cpp Approximator.hpp Matrix.cpp Matrix.hpp UserInterface.cpp UserInterface.hpp test/GeneralTest.cpp test/GeneralTest.hpp)
