@@ -143,114 +143,6 @@ proj/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/proj.dir/build.make CMakeFiles/proj.dir/build
 .PHONY : proj/fast
 
-Approximator.o: Approximator.cpp.o
-
-.PHONY : Approximator.o
-
-# target to build an object file
-Approximator.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/proj.dir/build.make CMakeFiles/proj.dir/Approximator.cpp.o
-.PHONY : Approximator.cpp.o
-
-Approximator.i: Approximator.cpp.i
-
-.PHONY : Approximator.i
-
-# target to preprocess a source file
-Approximator.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/proj.dir/build.make CMakeFiles/proj.dir/Approximator.cpp.i
-.PHONY : Approximator.cpp.i
-
-Approximator.s: Approximator.cpp.s
-
-.PHONY : Approximator.s
-
-# target to generate assembly for a file
-Approximator.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/proj.dir/build.make CMakeFiles/proj.dir/Approximator.cpp.s
-.PHONY : Approximator.cpp.s
-
-Data.o: Data.cpp.o
-
-.PHONY : Data.o
-
-# target to build an object file
-Data.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/proj.dir/build.make CMakeFiles/proj.dir/Data.cpp.o
-.PHONY : Data.cpp.o
-
-Data.i: Data.cpp.i
-
-.PHONY : Data.i
-
-# target to preprocess a source file
-Data.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/proj.dir/build.make CMakeFiles/proj.dir/Data.cpp.i
-.PHONY : Data.cpp.i
-
-Data.s: Data.cpp.s
-
-.PHONY : Data.s
-
-# target to generate assembly for a file
-Data.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/proj.dir/build.make CMakeFiles/proj.dir/Data.cpp.s
-.PHONY : Data.cpp.s
-
-Matrix.o: Matrix.cpp.o
-
-.PHONY : Matrix.o
-
-# target to build an object file
-Matrix.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/proj.dir/build.make CMakeFiles/proj.dir/Matrix.cpp.o
-.PHONY : Matrix.cpp.o
-
-Matrix.i: Matrix.cpp.i
-
-.PHONY : Matrix.i
-
-# target to preprocess a source file
-Matrix.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/proj.dir/build.make CMakeFiles/proj.dir/Matrix.cpp.i
-.PHONY : Matrix.cpp.i
-
-Matrix.s: Matrix.cpp.s
-
-.PHONY : Matrix.s
-
-# target to generate assembly for a file
-Matrix.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/proj.dir/build.make CMakeFiles/proj.dir/Matrix.cpp.s
-.PHONY : Matrix.cpp.s
-
-UserInterface.o: UserInterface.cpp.o
-
-.PHONY : UserInterface.o
-
-# target to build an object file
-UserInterface.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/proj.dir/build.make CMakeFiles/proj.dir/UserInterface.cpp.o
-.PHONY : UserInterface.cpp.o
-
-UserInterface.i: UserInterface.cpp.i
-
-.PHONY : UserInterface.i
-
-# target to preprocess a source file
-UserInterface.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/proj.dir/build.make CMakeFiles/proj.dir/UserInterface.cpp.i
-.PHONY : UserInterface.cpp.i
-
-UserInterface.s: UserInterface.cpp.s
-
-.PHONY : UserInterface.s
-
-# target to generate assembly for a file
-UserInterface.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/proj.dir/build.make CMakeFiles/proj.dir/UserInterface.cpp.s
-.PHONY : UserInterface.cpp.s
-
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -277,6 +169,114 @@ main.s: main.cpp.s
 main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/proj.dir/build.make CMakeFiles/proj.dir/main.cpp.s
 .PHONY : main.cpp.s
+
+src/Approximator.o: src/Approximator.cpp.o
+
+.PHONY : src/Approximator.o
+
+# target to build an object file
+src/Approximator.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/proj.dir/build.make CMakeFiles/proj.dir/src/Approximator.cpp.o
+.PHONY : src/Approximator.cpp.o
+
+src/Approximator.i: src/Approximator.cpp.i
+
+.PHONY : src/Approximator.i
+
+# target to preprocess a source file
+src/Approximator.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/proj.dir/build.make CMakeFiles/proj.dir/src/Approximator.cpp.i
+.PHONY : src/Approximator.cpp.i
+
+src/Approximator.s: src/Approximator.cpp.s
+
+.PHONY : src/Approximator.s
+
+# target to generate assembly for a file
+src/Approximator.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/proj.dir/build.make CMakeFiles/proj.dir/src/Approximator.cpp.s
+.PHONY : src/Approximator.cpp.s
+
+src/Data.o: src/Data.cpp.o
+
+.PHONY : src/Data.o
+
+# target to build an object file
+src/Data.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/proj.dir/build.make CMakeFiles/proj.dir/src/Data.cpp.o
+.PHONY : src/Data.cpp.o
+
+src/Data.i: src/Data.cpp.i
+
+.PHONY : src/Data.i
+
+# target to preprocess a source file
+src/Data.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/proj.dir/build.make CMakeFiles/proj.dir/src/Data.cpp.i
+.PHONY : src/Data.cpp.i
+
+src/Data.s: src/Data.cpp.s
+
+.PHONY : src/Data.s
+
+# target to generate assembly for a file
+src/Data.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/proj.dir/build.make CMakeFiles/proj.dir/src/Data.cpp.s
+.PHONY : src/Data.cpp.s
+
+src/Matrix.o: src/Matrix.cpp.o
+
+.PHONY : src/Matrix.o
+
+# target to build an object file
+src/Matrix.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/proj.dir/build.make CMakeFiles/proj.dir/src/Matrix.cpp.o
+.PHONY : src/Matrix.cpp.o
+
+src/Matrix.i: src/Matrix.cpp.i
+
+.PHONY : src/Matrix.i
+
+# target to preprocess a source file
+src/Matrix.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/proj.dir/build.make CMakeFiles/proj.dir/src/Matrix.cpp.i
+.PHONY : src/Matrix.cpp.i
+
+src/Matrix.s: src/Matrix.cpp.s
+
+.PHONY : src/Matrix.s
+
+# target to generate assembly for a file
+src/Matrix.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/proj.dir/build.make CMakeFiles/proj.dir/src/Matrix.cpp.s
+.PHONY : src/Matrix.cpp.s
+
+src/UserInterface.o: src/UserInterface.cpp.o
+
+.PHONY : src/UserInterface.o
+
+# target to build an object file
+src/UserInterface.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/proj.dir/build.make CMakeFiles/proj.dir/src/UserInterface.cpp.o
+.PHONY : src/UserInterface.cpp.o
+
+src/UserInterface.i: src/UserInterface.cpp.i
+
+.PHONY : src/UserInterface.i
+
+# target to preprocess a source file
+src/UserInterface.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/proj.dir/build.make CMakeFiles/proj.dir/src/UserInterface.cpp.i
+.PHONY : src/UserInterface.cpp.i
+
+src/UserInterface.s: src/UserInterface.cpp.s
+
+.PHONY : src/UserInterface.s
+
+# target to generate assembly for a file
+src/UserInterface.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/proj.dir/build.make CMakeFiles/proj.dir/src/UserInterface.cpp.s
+.PHONY : src/UserInterface.cpp.s
 
 test/GeneralTest.o: test/GeneralTest.cpp.o
 
@@ -422,21 +422,21 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... proj"
-	@echo "... Approximator.o"
-	@echo "... Approximator.i"
-	@echo "... Approximator.s"
-	@echo "... Data.o"
-	@echo "... Data.i"
-	@echo "... Data.s"
-	@echo "... Matrix.o"
-	@echo "... Matrix.i"
-	@echo "... Matrix.s"
-	@echo "... UserInterface.o"
-	@echo "... UserInterface.i"
-	@echo "... UserInterface.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... src/Approximator.o"
+	@echo "... src/Approximator.i"
+	@echo "... src/Approximator.s"
+	@echo "... src/Data.o"
+	@echo "... src/Data.i"
+	@echo "... src/Data.s"
+	@echo "... src/Matrix.o"
+	@echo "... src/Matrix.i"
+	@echo "... src/Matrix.s"
+	@echo "... src/UserInterface.o"
+	@echo "... src/UserInterface.i"
+	@echo "... src/UserInterface.s"
 	@echo "... test/GeneralTest.o"
 	@echo "... test/GeneralTest.i"
 	@echo "... test/GeneralTest.s"

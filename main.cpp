@@ -1,9 +1,9 @@
 #include <iostream>
-#include "Data.hpp"
-#include "Approximator.hpp"
+#include "src/Data.hpp"
+#include "src/Approximator.hpp"
 #include <Eigen/Dense>
-#include "Matrix.hpp"
-#include "UserInterface.hpp"
+#include "src/Matrix.hpp"
+#include "src/UserInterface.hpp"
 
 
 int main(){

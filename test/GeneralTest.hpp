@@ -6,8 +6,8 @@
 #define PROJ_GENERALTEST_HPP
 
 #include <iostream>
-#include "../Approximator.hpp"
-#include "../Data.hpp"
+#include "../src/Approximator.hpp"
+#include "../src/Data.hpp"
 
 class Test{
 public:

@@ -86,31 +86,31 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/haojun/Desktop/MATH-458/math-458/proj/Approximator.cpp">
-			<Option target="proj"/>
-		</Unit>
-		<Unit filename="/home/haojun/Desktop/MATH-458/math-458/proj/Approximator.hpp">
-			<Option target="proj"/>
-		</Unit>
-		<Unit filename="/home/haojun/Desktop/MATH-458/math-458/proj/Data.cpp">
-			<Option target="proj"/>
-		</Unit>
-		<Unit filename="/home/haojun/Desktop/MATH-458/math-458/proj/Data.hpp">
-			<Option target="proj"/>
-		</Unit>
-		<Unit filename="/home/haojun/Desktop/MATH-458/math-458/proj/Matrix.cpp">
-			<Option target="proj"/>
-		</Unit>
-		<Unit filename="/home/haojun/Desktop/MATH-458/math-458/proj/Matrix.hpp">
-			<Option target="proj"/>
-		</Unit>
-		<Unit filename="/home/haojun/Desktop/MATH-458/math-458/proj/UserInterface.cpp">
-			<Option target="proj"/>
-		</Unit>
-		<Unit filename="/home/haojun/Desktop/MATH-458/math-458/proj/UserInterface.hpp">
-			<Option target="proj"/>
-		</Unit>
 		<Unit filename="/home/haojun/Desktop/MATH-458/math-458/proj/main.cpp">
+			<Option target="proj"/>
+		</Unit>
+		<Unit filename="/home/haojun/Desktop/MATH-458/math-458/proj/src/Approximator.cpp">
+			<Option target="proj"/>
+		</Unit>
+		<Unit filename="/home/haojun/Desktop/MATH-458/math-458/proj/src/Approximator.hpp">
+			<Option target="proj"/>
+		</Unit>
+		<Unit filename="/home/haojun/Desktop/MATH-458/math-458/proj/src/Data.cpp">
+			<Option target="proj"/>
+		</Unit>
+		<Unit filename="/home/haojun/Desktop/MATH-458/math-458/proj/src/Data.hpp">
+			<Option target="proj"/>
+		</Unit>
+		<Unit filename="/home/haojun/Desktop/MATH-458/math-458/proj/src/Matrix.cpp">
+			<Option target="proj"/>
+		</Unit>
+		<Unit filename="/home/haojun/Desktop/MATH-458/math-458/proj/src/Matrix.hpp">
+			<Option target="proj"/>
+		</Unit>
+		<Unit filename="/home/haojun/Desktop/MATH-458/math-458/proj/src/UserInterface.cpp">
+			<Option target="proj"/>
+		</Unit>
+		<Unit filename="/home/haojun/Desktop/MATH-458/math-458/proj/src/UserInterface.hpp">
 			<Option target="proj"/>
 		</Unit>
 		<Unit filename="/home/haojun/Desktop/MATH-458/math-458/proj/test/GeneralTest.cpp">

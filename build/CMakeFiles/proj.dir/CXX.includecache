@@ -1064,7 +1064,21 @@ lapacke_mangling.h
 
 ../lib/eigen-3.3.8/Eigen/src/plugins/MatrixCwiseUnaryOps.h
 
-/home/haojun/Desktop/MATH-458/math-458/proj/Approximator.cpp
+/home/haojun/Desktop/MATH-458/math-458/proj/main.cpp
+iostream
+-
+src/Data.hpp
+/home/haojun/Desktop/MATH-458/math-458/proj/src/Data.hpp
+src/Approximator.hpp
+/home/haojun/Desktop/MATH-458/math-458/proj/src/Approximator.hpp
+Eigen/Dense
+-
+src/Matrix.hpp
+/home/haojun/Desktop/MATH-458/math-458/proj/src/Matrix.hpp
+src/UserInterface.hpp
+/home/haojun/Desktop/MATH-458/math-458/proj/src/UserInterface.hpp
+
+/home/haojun/Desktop/MATH-458/math-458/proj/src/Approximator.cpp
 stdexcept
 -
 iostream
@@ -1072,23 +1086,23 @@ iostream
 cmath
 -
 Approximator.hpp
-/home/haojun/Desktop/MATH-458/math-458/proj/Approximator.hpp
+/home/haojun/Desktop/MATH-458/math-458/proj/src/Approximator.hpp
 
-/home/haojun/Desktop/MATH-458/math-458/proj/Approximator.hpp
+/home/haojun/Desktop/MATH-458/math-458/proj/src/Approximator.hpp
 Eigen/Dense
 -
 vector
 -
 Matrix.hpp
-/home/haojun/Desktop/MATH-458/math-458/proj/Matrix.hpp
+/home/haojun/Desktop/MATH-458/math-458/proj/src/Matrix.hpp
 
-/home/haojun/Desktop/MATH-458/math-458/proj/Data.cpp
+/home/haojun/Desktop/MATH-458/math-458/proj/src/Data.cpp
 Data.hpp
-/home/haojun/Desktop/MATH-458/math-458/proj/Data.hpp
+/home/haojun/Desktop/MATH-458/math-458/proj/src/Data.hpp
 cmath
 -
 
-/home/haojun/Desktop/MATH-458/math-458/proj/Data.hpp
+/home/haojun/Desktop/MATH-458/math-458/proj/src/Data.hpp
 iostream
 -
 fstream
@@ -1096,51 +1110,37 @@ fstream
 vector
 -
 
-/home/haojun/Desktop/MATH-458/math-458/proj/Matrix.cpp
+/home/haojun/Desktop/MATH-458/math-458/proj/src/Matrix.cpp
 Matrix.hpp
-/home/haojun/Desktop/MATH-458/math-458/proj/Matrix.hpp
+/home/haojun/Desktop/MATH-458/math-458/proj/src/Matrix.hpp
 stdexcept
 -
 cmath
 -
 
-/home/haojun/Desktop/MATH-458/math-458/proj/Matrix.hpp
+/home/haojun/Desktop/MATH-458/math-458/proj/src/Matrix.hpp
 iostream
 -
 vector
 -
 
-/home/haojun/Desktop/MATH-458/math-458/proj/UserInterface.cpp
+/home/haojun/Desktop/MATH-458/math-458/proj/src/UserInterface.cpp
 UserInterface.hpp
-/home/haojun/Desktop/MATH-458/math-458/proj/UserInterface.hpp
+/home/haojun/Desktop/MATH-458/math-458/proj/src/UserInterface.hpp
 iostream
 -
-test/GeneralTest.hpp
+../test/GeneralTest.hpp
 /home/haojun/Desktop/MATH-458/math-458/proj/test/GeneralTest.hpp
-test/Test_1.hpp
+../test/Test_1.hpp
 /home/haojun/Desktop/MATH-458/math-458/proj/test/Test_1.hpp
-test/Test_2.hpp
+../test/Test_2.hpp
 /home/haojun/Desktop/MATH-458/math-458/proj/test/Test_2.hpp
-test/Test_3.hpp
+../test/Test_3.hpp
 /home/haojun/Desktop/MATH-458/math-458/proj/test/Test_3.hpp
-test/Test_4.hpp
+../test/Test_4.hpp
 /home/haojun/Desktop/MATH-458/math-458/proj/test/Test_4.hpp
 
-/home/haojun/Desktop/MATH-458/math-458/proj/UserInterface.hpp
-
-/home/haojun/Desktop/MATH-458/math-458/proj/main.cpp
-iostream
--
-Data.hpp
-/home/haojun/Desktop/MATH-458/math-458/proj/Data.hpp
-Approximator.hpp
-/home/haojun/Desktop/MATH-458/math-458/proj/Approximator.hpp
-Eigen/Dense
--
-Matrix.hpp
-/home/haojun/Desktop/MATH-458/math-458/proj/Matrix.hpp
-UserInterface.hpp
-/home/haojun/Desktop/MATH-458/math-458/proj/UserInterface.hpp
+/home/haojun/Desktop/MATH-458/math-458/proj/src/UserInterface.hpp
 
 /home/haojun/Desktop/MATH-458/math-458/proj/test/GeneralTest.cpp
 GeneralTest.hpp
@@ -1149,10 +1149,10 @@ GeneralTest.hpp
 /home/haojun/Desktop/MATH-458/math-458/proj/test/GeneralTest.hpp
 iostream
 -
-../Approximator.hpp
-/home/haojun/Desktop/MATH-458/math-458/proj/Approximator.hpp
-../Data.hpp
-/home/haojun/Desktop/MATH-458/math-458/proj/Data.hpp
+../src/Approximator.hpp
+/home/haojun/Desktop/MATH-458/math-458/proj/src/Approximator.hpp
+../src/Data.hpp
+/home/haojun/Desktop/MATH-458/math-458/proj/src/Data.hpp
 
 /home/haojun/Desktop/MATH-458/math-458/proj/test/Test_1.cpp
 Test_1.hpp

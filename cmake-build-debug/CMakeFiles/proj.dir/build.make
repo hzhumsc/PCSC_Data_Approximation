@@ -90,57 +90,57 @@ CMakeFiles/proj.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/proj.dir/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/haojun/Desktop/MATH-458/math-458/proj/main.cpp -o CMakeFiles/proj.dir/main.cpp.s
 
-CMakeFiles/proj.dir/Data.cpp.o: CMakeFiles/proj.dir/flags.make
-CMakeFiles/proj.dir/Data.cpp.o: ../Data.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/haojun/Desktop/MATH-458/math-458/proj/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/proj.dir/Data.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/proj.dir/Data.cpp.o -c /home/haojun/Desktop/MATH-458/math-458/proj/Data.cpp
+CMakeFiles/proj.dir/src/Data.cpp.o: CMakeFiles/proj.dir/flags.make
+CMakeFiles/proj.dir/src/Data.cpp.o: ../src/Data.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/haojun/Desktop/MATH-458/math-458/proj/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/proj.dir/src/Data.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/proj.dir/src/Data.cpp.o -c /home/haojun/Desktop/MATH-458/math-458/proj/src/Data.cpp
 
-CMakeFiles/proj.dir/Data.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/proj.dir/Data.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/haojun/Desktop/MATH-458/math-458/proj/Data.cpp > CMakeFiles/proj.dir/Data.cpp.i
+CMakeFiles/proj.dir/src/Data.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/proj.dir/src/Data.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/haojun/Desktop/MATH-458/math-458/proj/src/Data.cpp > CMakeFiles/proj.dir/src/Data.cpp.i
 
-CMakeFiles/proj.dir/Data.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/proj.dir/Data.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/haojun/Desktop/MATH-458/math-458/proj/Data.cpp -o CMakeFiles/proj.dir/Data.cpp.s
+CMakeFiles/proj.dir/src/Data.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/proj.dir/src/Data.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/haojun/Desktop/MATH-458/math-458/proj/src/Data.cpp -o CMakeFiles/proj.dir/src/Data.cpp.s
 
-CMakeFiles/proj.dir/Approximator.cpp.o: CMakeFiles/proj.dir/flags.make
-CMakeFiles/proj.dir/Approximator.cpp.o: ../Approximator.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/haojun/Desktop/MATH-458/math-458/proj/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/proj.dir/Approximator.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/proj.dir/Approximator.cpp.o -c /home/haojun/Desktop/MATH-458/math-458/proj/Approximator.cpp
+CMakeFiles/proj.dir/src/Approximator.cpp.o: CMakeFiles/proj.dir/flags.make
+CMakeFiles/proj.dir/src/Approximator.cpp.o: ../src/Approximator.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/haojun/Desktop/MATH-458/math-458/proj/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/proj.dir/src/Approximator.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/proj.dir/src/Approximator.cpp.o -c /home/haojun/Desktop/MATH-458/math-458/proj/src/Approximator.cpp
 
-CMakeFiles/proj.dir/Approximator.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/proj.dir/Approximator.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/haojun/Desktop/MATH-458/math-458/proj/Approximator.cpp > CMakeFiles/proj.dir/Approximator.cpp.i
+CMakeFiles/proj.dir/src/Approximator.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/proj.dir/src/Approximator.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/haojun/Desktop/MATH-458/math-458/proj/src/Approximator.cpp > CMakeFiles/proj.dir/src/Approximator.cpp.i
 
-CMakeFiles/proj.dir/Approximator.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/proj.dir/Approximator.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/haojun/Desktop/MATH-458/math-458/proj/Approximator.cpp -o CMakeFiles/proj.dir/Approximator.cpp.s
+CMakeFiles/proj.dir/src/Approximator.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/proj.dir/src/Approximator.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/haojun/Desktop/MATH-458/math-458/proj/src/Approximator.cpp -o CMakeFiles/proj.dir/src/Approximator.cpp.s
 
-CMakeFiles/proj.dir/Matrix.cpp.o: CMakeFiles/proj.dir/flags.make
-CMakeFiles/proj.dir/Matrix.cpp.o: ../Matrix.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/haojun/Desktop/MATH-458/math-458/proj/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/proj.dir/Matrix.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/proj.dir/Matrix.cpp.o -c /home/haojun/Desktop/MATH-458/math-458/proj/Matrix.cpp
+CMakeFiles/proj.dir/src/Matrix.cpp.o: CMakeFiles/proj.dir/flags.make
+CMakeFiles/proj.dir/src/Matrix.cpp.o: ../src/Matrix.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/haojun/Desktop/MATH-458/math-458/proj/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/proj.dir/src/Matrix.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/proj.dir/src/Matrix.cpp.o -c /home/haojun/Desktop/MATH-458/math-458/proj/src/Matrix.cpp
 
-CMakeFiles/proj.dir/Matrix.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/proj.dir/Matrix.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/haojun/Desktop/MATH-458/math-458/proj/Matrix.cpp > CMakeFiles/proj.dir/Matrix.cpp.i
+CMakeFiles/proj.dir/src/Matrix.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/proj.dir/src/Matrix.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/haojun/Desktop/MATH-458/math-458/proj/src/Matrix.cpp > CMakeFiles/proj.dir/src/Matrix.cpp.i
 
-CMakeFiles/proj.dir/Matrix.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/proj.dir/Matrix.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/haojun/Desktop/MATH-458/math-458/proj/Matrix.cpp -o CMakeFiles/proj.dir/Matrix.cpp.s
+CMakeFiles/proj.dir/src/Matrix.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/proj.dir/src/Matrix.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/haojun/Desktop/MATH-458/math-458/proj/src/Matrix.cpp -o CMakeFiles/proj.dir/src/Matrix.cpp.s
 
-CMakeFiles/proj.dir/UserInterface.cpp.o: CMakeFiles/proj.dir/flags.make
-CMakeFiles/proj.dir/UserInterface.cpp.o: ../UserInterface.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/haojun/Desktop/MATH-458/math-458/proj/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/proj.dir/UserInterface.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/proj.dir/UserInterface.cpp.o -c /home/haojun/Desktop/MATH-458/math-458/proj/UserInterface.cpp
+CMakeFiles/proj.dir/src/UserInterface.cpp.o: CMakeFiles/proj.dir/flags.make
+CMakeFiles/proj.dir/src/UserInterface.cpp.o: ../src/UserInterface.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/haojun/Desktop/MATH-458/math-458/proj/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/proj.dir/src/UserInterface.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/proj.dir/src/UserInterface.cpp.o -c /home/haojun/Desktop/MATH-458/math-458/proj/src/UserInterface.cpp
 
-CMakeFiles/proj.dir/UserInterface.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/proj.dir/UserInterface.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/haojun/Desktop/MATH-458/math-458/proj/UserInterface.cpp > CMakeFiles/proj.dir/UserInterface.cpp.i
+CMakeFiles/proj.dir/src/UserInterface.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/proj.dir/src/UserInterface.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/haojun/Desktop/MATH-458/math-458/proj/src/UserInterface.cpp > CMakeFiles/proj.dir/src/UserInterface.cpp.i
 
-CMakeFiles/proj.dir/UserInterface.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/proj.dir/UserInterface.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/haojun/Desktop/MATH-458/math-458/proj/UserInterface.cpp -o CMakeFiles/proj.dir/UserInterface.cpp.s
+CMakeFiles/proj.dir/src/UserInterface.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/proj.dir/src/UserInterface.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/haojun/Desktop/MATH-458/math-458/proj/src/UserInterface.cpp -o CMakeFiles/proj.dir/src/UserInterface.cpp.s
 
 CMakeFiles/proj.dir/test/GeneralTest.cpp.o: CMakeFiles/proj.dir/flags.make
 CMakeFiles/proj.dir/test/GeneralTest.cpp.o: ../test/GeneralTest.cpp
@@ -210,10 +210,10 @@ CMakeFiles/proj.dir/test/Test_4.cpp.s: cmake_force
 # Object files for target proj
 proj_OBJECTS = \
 "CMakeFiles/proj.dir/main.cpp.o" \
-"CMakeFiles/proj.dir/Data.cpp.o" \
-"CMakeFiles/proj.dir/Approximator.cpp.o" \
-"CMakeFiles/proj.dir/Matrix.cpp.o" \
-"CMakeFiles/proj.dir/UserInterface.cpp.o" \
+"CMakeFiles/proj.dir/src/Data.cpp.o" \
+"CMakeFiles/proj.dir/src/Approximator.cpp.o" \
+"CMakeFiles/proj.dir/src/Matrix.cpp.o" \
+"CMakeFiles/proj.dir/src/UserInterface.cpp.o" \
 "CMakeFiles/proj.dir/test/GeneralTest.cpp.o" \
 "CMakeFiles/proj.dir/test/Test_1.cpp.o" \
 "CMakeFiles/proj.dir/test/Test_2.cpp.o" \
@@ -224,10 +224,10 @@ proj_OBJECTS = \
 proj_EXTERNAL_OBJECTS =
 
 proj: CMakeFiles/proj.dir/main.cpp.o
-proj: CMakeFiles/proj.dir/Data.cpp.o
-proj: CMakeFiles/proj.dir/Approximator.cpp.o
-proj: CMakeFiles/proj.dir/Matrix.cpp.o
-proj: CMakeFiles/proj.dir/UserInterface.cpp.o
+proj: CMakeFiles/proj.dir/src/Data.cpp.o
+proj: CMakeFiles/proj.dir/src/Approximator.cpp.o
+proj: CMakeFiles/proj.dir/src/Matrix.cpp.o
+proj: CMakeFiles/proj.dir/src/UserInterface.cpp.o
 proj: CMakeFiles/proj.dir/test/GeneralTest.cpp.o
 proj: CMakeFiles/proj.dir/test/Test_1.cpp.o
 proj: CMakeFiles/proj.dir/test/Test_2.cpp.o

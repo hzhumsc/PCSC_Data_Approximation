@@ -4,11 +4,11 @@
 
 #include "UserInterface.hpp"
 #include <iostream>
-#include "test/GeneralTest.hpp"
-#include "test/Test_1.hpp"
-#include "test/Test_2.hpp"
-#include "test/Test_3.hpp"
-#include "test/Test_4.hpp"
+#include "../test/GeneralTest.hpp"
+#include "../test/Test_1.hpp"
+#include "../test/Test_2.hpp"
+#include "../test/Test_3.hpp"
+#include "../test/Test_4.hpp"
 
 void UserInterface()
 {
