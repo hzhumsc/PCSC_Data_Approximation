@@ -55,8 +55,10 @@ After that, it will ask for the exact type of method the user wants to use, the 
 #### B. Testing the result of our prepared test cases
 In the project, there are already some pre-defined test cases. There are 4 data samples are already present in the folder **data** under the project repository. Users can directly use these 4 cases to see how this program works. 
 
-
-
+User doesn't have to specify the path of the data file and the output path in this case. And the process of choosing the approximation methods is the same as the case when the user chooses to use his/her own data files.
 
 ### 5. The pre-defined data samples
 
+There are 4 pre-defined data samples. The values of `x_i` are the same 101 equally spaced points ranging from -20 to 20.
+
+#### data sample 1
