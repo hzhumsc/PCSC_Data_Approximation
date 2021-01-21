@@ -73,7 +73,7 @@ void WelcomeInfo()
     std::cout<<"1-"<<"Test from your own data files."<<std::endl;
     std::cout<<"2-"<<"Test from existing toy test cases."<<std::endl;
     std::cout<<"3-"<<"Exit"<<std::endl;
-    std::cout<<R"(Please type in the mode you want to choose or type "4" or "exit" to exit)"<<std::endl;
+    std::cout<<R"(Please type in the mode you want to choose or type "3" or "exit" to exit)"<<std::endl;
     std::cout<<"------------------------------------------------------------------------"<<std::endl;
     std::cout<<">>";
 }

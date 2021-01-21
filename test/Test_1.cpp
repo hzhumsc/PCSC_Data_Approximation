@@ -25,7 +25,7 @@ void Test_1::RunTest() {
     std::cout<<"3-"<<"Piecewise cubic polynomial interpolation"<<std::endl;
     std::cin>>method;
     if (method == 1){
-        output_path = "../data/test1_polynomial.data";
+        output_path = "../data/test1_polynomial.dat";
         std::vector<double> coef;
         int degree;
         std::cout<<"Please choose the degree"<<std::endl;
@@ -48,7 +48,7 @@ void Test_1::RunTest() {
         std::cout<<"Finished."<<std::endl;
     }
     else if (method == 2){
-        output_path = "../data/test1_linear_interp.data";
+        output_path = "../data/test1_linear_interp.dat";
         std::vector<double> x, y_app;
         int n_nodes;
         n_nodes = 10*N;
@@ -58,7 +58,7 @@ void Test_1::RunTest() {
         std::cout<<"Finished."<<std::endl;
     }
     else if (method == 3){
-        output_path = "../data/test1_cubic_interp.data";
+        output_path = "../data/test1_cubic_interp.dat";
         std::vector<double> x, y_app;
         int n_nodes;
         n_nodes = 10*N;
