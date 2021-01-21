@@ -28,7 +28,8 @@ void UserInterface()
         else if(command=="2")
         {
             int n_test;
-            std::cout<<"Which data you want to test, please enter an integer in [1, 4] that corresponds to our toy data.";
+            std::cout<<"Which data you want to test, please enter an integer in [1, 4] that corresponds to our toy data."<<std::endl;
+            std::cout<<">>";
             std::cin>>n_test;
             if(n_test == 1){
                 Test_1 test1;
