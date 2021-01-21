@@ -59,6 +59,6 @@ User doesn't have to specify the path of the data file and the output path in th
 
 ### 5. The pre-defined data samples
 
-There are 4 pre-defined data samples. The values of $x_i$ are the same 101 equally spaced points ranging from -20 to 20.
+There are 4 pre-defined data samples. The values of $$x_1? are the same 101 equally spaced points ranging from -20 to 20.
 
 #### data sample 1
