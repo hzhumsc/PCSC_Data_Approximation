@@ -12,7 +12,7 @@ void UserInterface();
 
 /**
  * It shows the user the available mode of usage of the program(use new data files or use test cases stored in some other
- * file)
+ * file.
  */
 void WelcomeInfo();
 

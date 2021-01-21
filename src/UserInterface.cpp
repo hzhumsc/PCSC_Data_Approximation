@@ -13,7 +13,7 @@
 void UserInterface()
 {
     std::string command;
-    std::cout<<"PCSC Non Linear System Solver"<<std::endl;
+    std::cout<<"PCSC Data Approximator"<<std::endl;
     std::cout<<"------------------------------------------------------------------------"<<std::endl;
     WelcomeInfo();
     std::cin>>command;
@@ -51,13 +51,9 @@ void UserInterface()
                 std::cout<<"------------------------------------------------------------------------"<<std::endl;
             }
         }
-        else if(command=="3")
+        else if(command=="3"||command =="exit")
         {
-
-        }
-        else if(command=="4"||command =="exit")
-        {
-            std::cout<<"PCSC Non Linear System Solver exit."<<std::endl;
+            std::cout<<"PCSC Data Approximator exit."<<std::endl;
             std::cout<<"------------------------------------------------------------------------"<<std::endl;
             break;
         }
@@ -75,8 +71,7 @@ void WelcomeInfo()
     std::cout<<"There are several modes you can choose."<<std::endl;
     std::cout<<"1-"<<"Test from your own data files."<<std::endl;
     std::cout<<"2-"<<"Test from existing toy test cases."<<std::endl;
-    std::cout<<"3-"<<"Test all test cases."<<std::endl;
-    std::cout<<"4-"<<"Exit"<<std::endl;
+    std::cout<<"3-"<<"Exit"<<std::endl;
     std::cout<<R"(Please type in the mode you want to choose or type "4" or "exit" to exit)"<<std::endl;
     std::cout<<"------------------------------------------------------------------------"<<std::endl;
     std::cout<<">>";
