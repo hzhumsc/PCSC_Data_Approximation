@@ -67,7 +67,7 @@ The values of `y_i` are generated from the function f(x) = exp(x).
 The values of `y_i` are generated from the function f(x) = x^3 + x^2 x + 1.
 ##### data sample 3
 The values of `y_i` are generated from the function f(x) = 1/(1 + 25 * x^2).
-#### data sample 4
+##### data sample 4
 The values of `y_i` are generated from the function f(x) = cos(pi * (abs(x)^0.5)).
 
 
