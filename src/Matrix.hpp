@@ -186,7 +186,7 @@ public:
     friend std::vector<double> gauss_solve(const Matrix& A, const std::vector<double> &b);
 
     /**
-     * Solve least squares Ax = b, where A is non-square. In fact, we solve the normal equation
+     * Solve least squares Ax = b, where A is non-square.
      * @param A a non-square matrix
      * @param b a vector
      * @param s a non-negative scalar to be added on the diagonal of A.T * A
