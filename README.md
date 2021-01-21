@@ -64,7 +64,7 @@ There are 4 pre-defined data samples. The values of `x_i` are the same 101 equal
 ##### data sample 1
 The values of `y_i` are generated from the function f(x) = exp(x).
 ##### data sample 2
-The values of `y_i` are generated from the function f(x) = x^3 + x^2 x + 1.
+The values of `y_i` are generated from the function f(x) = x^3 + x^2 + x + 1.
 ##### data sample 3
 The values of `y_i` are generated from the function f(x) = 1/(1 + 25 * x^2).
 ##### data sample 4
