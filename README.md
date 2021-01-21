@@ -42,12 +42,14 @@ Then, enter the following command to run the executable file.
 
 When the compiling, linking and generating is done. The program is executive. In the executive program, user can choose two different ways to use. Each of them have input standards. **Please follow the standards.**
 
-- 1. Using the new data given by the user.
-- 2. Testing the result of our prepared test cases.
+- Using the new data given by the user.
+- Testing the result of our prepared test cases.
 
 #### A. Using the new data given by the user
-If the user wants to test the output according to their own data samples, the user should first put the data file in the folder **data** under the project repository and run the executable `./proj`. 
-The user interface will ask the user to choose the working mode and the user should choose mode `1` in this case. Then, the user interface will ask for the path of the data file, and if it's already put in the data file, then the user should enter `../data/name_of_the_data_file.dat`. Similarily, the user can enter the path of the output file as `../data/name_of_the_ouput.dat` when the interface asks about it. 
+If the user wants to test the output according to their own data samples, the user should first put the data file in the folder **data** under the project repository and run the executable `./proj`.
+
+The user interface will ask the user to choose the working mode and the user should choose mode `1` in this case. Then, the user interface will ask for the path of the data file, and if it's already put in the data file, then the user should enter `../data/name_of_the_data_file.dat`. Similarily, the user can enter the path of the output file as `../data/name_of_the_ouput.dat` when the interface asks about it.
+
 After that, it will ask for the exact type of method the user wants to use, the user can choose from 1 to 3, corresponding to the 3 methods we have implemented. Note that, if the user chooses the polynomial approximation method, he/she should mention the degree of polynomials and the user interface will give an information about the maximum degree can be chosen. If the user chooses the maximum degree, the normal polynomial approximation method will be applied; otherwise, the least squares method for data fitting will be applied.
 
 #### B. Testing the result of our prepared test cases
